@@ -549,34 +549,42 @@
           </ul>
         </div>
         <div class="container form-container">
-          <p class="footer-social-title">Subscribe</p>
-          <form class="subscribe-form" name="subscribe-form" autocomplete="off">
-            <label class="subscribe-label" for="subscribe_email"></label>
-            <input
-              class="subscribe-field"
-              type="email"
-              id="subscribe_email"
-              name="subscribe_email"
-              placeholder="E-mail"
-              required
-            />
-            <button type="submit" class="form-subscribe-btn">
-            <span>Subscribe</span>&nbsp;
-            <svg class="subscribe-icon" height="20" width="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
+          <div class="form-container-right">
+            <p class="footer-social-title">Subscribe</p>
+            <form
+              class="subscribe-form"
+              name="subscribe-form"
+              autocomplete="off"
+            >
+              <label class="subscribe-label" for="subscribe_email"></label>
+              <input
+                class="subscribe-field"
+                type="email"
+                id="subscribe_email"
+                name="subscribe_email"
+                placeholder="E-mail"
+                required
+              />
+              <button type="submit" class="form-subscribe-btn">
+                <span>Subscribe</span>
+                <svg class="subscribe-icon" height="20" width="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+
+    <!-- #endregion subscribe form -->
     <!-- #endregion footer -->
 
     <!-- #region overlay-->
-    <div class="backdrop hide-popup">
-      <!-- hide-popup -->
+    <div class="backdrop">
       <div class="popup-review">
         <button class="close-popup">
-          <svg height="24" width="24">
+          <svg height="8" width="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -594,7 +602,7 @@
                 name="username"
                 required
               />
-              <svg class="form-icon" height="12" width="12">
+              <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
@@ -609,7 +617,7 @@
                 name="contact_tel"
                 required
               />
-              <svg class="form-icon" height="13" width="13">
+              <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -624,7 +632,7 @@
                 name="email"
                 required
               />
-              <svg class="form-icon" height="12" width="15">
+              <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
