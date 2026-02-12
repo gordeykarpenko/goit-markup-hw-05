@@ -511,10 +511,6 @@ img {
     margin-right: 120px;
 }
 
-.footer-right {
-    margin-right: 80px;
-}
-
 .form-container {
     display: flex;
     flex-direction: column;
@@ -525,6 +521,9 @@ img {
     gap: 24px;
 }
 
+.subscribe {
+    margin-left: auto;
+}
 
 .subscribe-field {
     width: 264px;
@@ -699,7 +698,7 @@ img {
 
 .privacy-link:hover,
 .privacy-link:focus {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .field-wrapper {
